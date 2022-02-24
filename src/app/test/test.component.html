@@ -1,0 +1,9 @@
+<div class="p-5 bg-warning">
+    <p>{{count}}</p>
+<p>{{count+1}}</p>
+<button class="btn btn-success" (click)="increament()">+</button>
+<input #texter/>
+<button class="btn btn-danger"(click)="handler(texter.value)">ji</button>
+<p>{{setter}}</p>
+<input [(ngModel)]="setter"/>
+</div>
